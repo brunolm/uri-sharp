@@ -11,6 +11,8 @@ TypeScript definitions included.
 ## Example
 
 ```js
+import parseUri from 'uri-sharp';
+
 const uriText = 'http://www.codingwise.com/blog/?search=csharp#hash=net&ok=1';
 const uri = parseUri(uriText);
 
