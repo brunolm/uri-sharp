@@ -1,6 +1,6 @@
 {
   "name": "uri-sharp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Parse an URI and return an object. Similar to .NET Uri class.",
   "main": "dist/src/index.js",
   "scripts": {
@@ -8,6 +8,7 @@
     "build:watch": "tsc -w",
     "test": "mocha dist/spec"
   },
+  "types": "dist/src/index.d.ts",
   "author": {
     "email": "brunolm7@gmail.com",
     "name": "Bruno Leonardo Michels",
