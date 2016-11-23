@@ -1,0 +1,30 @@
+{
+  "name": "uri-sharp",
+  "version": "1.0.0",
+  "description": "Parse an URI and return an object. Similar to .NET Uri class.",
+  "main": "dist/src/index.js",
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc -w",
+    "test": "mocha dist/spec"
+  },
+  "author": {
+    "email": "brunolm7@gmail.com",
+    "name": "Bruno Leonardo Michels",
+    "url": "http://blog.codingwise.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brunolm/uri-sharp"
+  },
+  "license": "MIT",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "@types/chai": "^3.4.34",
+    "@types/mocha": "^2.2.33",
+    "chai": "^3.5.0",
+    "mocha": "^3.1.2",
+    "typescript": "^2.2.0-dev.20161122"
+  }
+}
